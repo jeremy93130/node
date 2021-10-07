@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "prompt": "^1.2.0"
-  }
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy93130/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremy93130/node/issues"
+  },
+  "homepage": "https://github.com/jeremy93130/node#readme",
+  "description": ""
 }

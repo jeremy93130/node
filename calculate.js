@@ -4,9 +4,6 @@ var args3 = parseInt(args[1])
 var args4 = args[2]
 
 function calculate(num, num1, somme) {
-    num = args2
-    num1 = args3
-    somme = args4
     var result
 
     if (somme === "+") {
@@ -24,6 +21,6 @@ function calculate(num, num1, somme) {
 }
 
 
-calculate(args2 , args3, args4)
+// calculate(args2 , args3, args4)
 
 
