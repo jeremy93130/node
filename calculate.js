@@ -1,9 +1,12 @@
 var args = process.argv.slice(2)
+var args2 = parseInt(args[0])
+var args3 = parseInt(args[1])
+var args4 = args[2]
 
 function calculate(num, num1, somme) {
-    num = args[0]
-    num1 = args[1]
-    somme = args[2]
+    num = args2
+    num1 = args3
+    somme = args4
     var result
 
     if (somme === "+") {
@@ -21,6 +24,6 @@ function calculate(num, num1, somme) {
 }
 
 
-console.log(calculate())
+calculate(args2 , args3, args4)
 
 
